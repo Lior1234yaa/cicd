@@ -1,0 +1,7 @@
+.venv
+.terraform/
+.terraform.lock.hcl
+kubectl.exe.sha256
+terraform.tfstate
+terraform.tfstate.backup
+.idea
