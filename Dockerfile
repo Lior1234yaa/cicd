@@ -10,5 +10,8 @@ COPY . .
 # Install Flask and other dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Make port 80 available to the world outside this container
+EXPOSE 80
+
 # Specify the command to run on container start
 CMD ["python", "app.py"]
